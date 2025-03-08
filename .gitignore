@@ -1,0 +1,27 @@
+# Ignore Python virtual environment
+.venv/
+.env/
+.env.prod
+.env.dev
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore Alembic migration files
+alembic/versions/
+
+# Ignore Docker build files
+docker-compose.override.yml
+docker-compose.prod.yml
