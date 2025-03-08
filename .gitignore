@@ -25,3 +25,4 @@ alembic/versions/
 # Ignore Docker build files
 docker-compose.override.yml
 docker-compose.prod.yml
+.env
